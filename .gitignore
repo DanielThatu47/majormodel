@@ -1,0 +1,54 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env
+*.env
+
+# Flask debugging
+instance/
+*.log
+*.db
+*.sqlite3
+
+# Vercel deployment files
+.vercel/
+.vercel_build_output/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Node modules (if any frontend dependencies)
+node_modules/
+
+# Static files
+static/
+dist/
+build/
+
+# Coverage and testing
+*.cover
+*.coverage
+coverage.xml
+.hypothesis/
+.pytest_cache/
+
+# Generated files
+*.htmlcov
+*.pytest_cache
+*.cache
+*.tmp
+
+# Others
+!README.md
