@@ -67,4 +67,4 @@ def predict_stock():
 
 if __name__ == '__main__':
     import pandas as pd # Import pandas here, as it's used in dummy data in test_predict_route
-    app.run(debug=True)
+    app.run(host='0.0.0.0')
